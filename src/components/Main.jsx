@@ -5,9 +5,7 @@ function Main() {
         <>
             <main>
                 <Card title="Título" bnt="Clicar"/>
-                <Card title="Rodrigo" bnt="Apertar"/>
-                <Card title="Jéssica" bnt="Pressionar"/>
-                <Card title="Título" bnt="Forçar"/>
+                <Card title="Oláaaa" bnt="Clicar aqui"/>
             </main>
         </>
     )
