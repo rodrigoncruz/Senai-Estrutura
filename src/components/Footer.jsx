@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom"
+
 function Footer({home, serv, cont, blog}) {
     return (
         <>
             <footer className="nav">
-                <a href="">{home}</a>
-                <a href="">{serv}</a>
-                <a href="">{cont}</a>
-                <a href="">{blog}</a>
+                <Link to="/">{home}</Link>
+                <Link to="/servico">{serv}</Link>
+                <Link to="/contato">{cont}</Link>
+                <Link to="/blog">{blog}</Link>
+                <Link to="/main">Chamar componente</Link>
             </footer>
         </>
     )
